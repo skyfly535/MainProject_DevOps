@@ -1,0 +1,14 @@
+---
+service:
+  internalPort: 8000
+  externalPort: 8000
+
+image:
+  repository: registry.otus-skyfly.ru/skyfly534/crawler
+  tag: latest
+
+ingress:
+  class: nginx
+
+mongoHost:
+mongoPort:
