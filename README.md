@@ -66,7 +66,7 @@ CMD [ "https://vitkhab.github.io/search_engine_test_site/" ]
 
 3. При помощи манифестов `Terraform` в `Yandex Cloud` произведена установка двух кластеров `Kubernetes`;
 
-В кластере `skyfly535` разворачиваем инфраструктура CI/CD - `GitLab`.
+В кластере `skyfly535` разворачиваем инфраструктуру CI/CD - `GitLab`.
 
 В кластер `pars-bot` будет производится выкатка самого приложения, развертывание всей необходимой инфраструктуры (monitorin, cert-cert manager).
 
